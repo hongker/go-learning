@@ -21,6 +21,7 @@ func main() {
 	}
 
 	client := pb.NewGreeterClient(cc)
+	// 配置参数
 	req := &pb.HelloRequest{Name: "alice"}
 
 	// 发送请求
