@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"demo/grpc/hello/pb"
 	"fmt"
+	"github.com/go-learning/grpc/hello/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/credentials/insecure"

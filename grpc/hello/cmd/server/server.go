@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"demo/grpc/hello/pb"
+	"github.com/go-learning/grpc/hello/pb"
 	"google.golang.org/grpc"
 	"log"
 	"net"
